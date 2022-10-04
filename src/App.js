@@ -5,7 +5,7 @@ import Dashboard from './components/Dashboard/Dashboard';
 import { useState, createContext } from 'react';
 import { realTimeDataBase } from './firebase-config';
 export let GlobalData = createContext();
-
+//used hooks.
 
 function App() {
   let [isTableComponent, setIsTableComponent] = useState(false);
